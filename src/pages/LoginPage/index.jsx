@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import "./styles.css";
 
 //Login Page - Auth
-
 const LoginPage = () => {
     const [email, setEmail] = useState("");
     const [pass, setPass] = useState("");
