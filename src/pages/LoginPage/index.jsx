@@ -31,8 +31,11 @@ const LoginPage = () => {
                     value={pass} 
                     onChange={(e) => setPass(e.target.value)}/>
                 </div>
-                <div className="actions">
+                <div className="actionLogin">
                     <button type="submit">Entrar</button>
+                </div>
+                <div className="actionRegister">
+                    <button type="submit">Registrar-se</button>
                 </div>
             </form>
         </div>

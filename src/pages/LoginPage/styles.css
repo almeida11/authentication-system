@@ -27,7 +27,13 @@
   width: 100%;
 }
 
-#login .actions {
+#login .actionLogin {
   text-align: center;
   margin-top: 0.5rem;
+  flex-direction: row;
+}
+#login .actionRegister {
+  text-align: left;
+  margin-top: 0.5rem;
+  flex-direction: row;
 }
