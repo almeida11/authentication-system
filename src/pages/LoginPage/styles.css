@@ -17,15 +17,13 @@
 #login .field label {
   padding-bottom: 0.5rem;
 }
+
 #login .field label {
   text-align: left;
   display: block;
   margin-top: 0.5rem;
 }
 
-#login .field input {
-  width: 100%;
-}
 
 #login .actionLogin {
   text-align: center;
@@ -33,7 +31,11 @@
   flex-direction: row;
 }
 #login .actionRegister {
-  text-align: left;
-  margin-top: 0.5rem;
+  text-align: center;
+  margin-top: 0.3rem;
   flex-direction: row;
+}
+
+#login .formLogin {
+  margin-bottom: 15px;
 }
