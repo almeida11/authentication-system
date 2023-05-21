@@ -1,32 +1,143 @@
-#login {
+
+/*START RESET CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+input:focus {
+    outline: none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END RESET CSS*/
+
+body{
+  display: flex;
+  background-color: #14162E;
+  
+}
+
+.login {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
+  width: 100vw;
+  height: 100vh;
   padding: 0 2rem;
+  
 }
-#login .form {
-  background-color: #f1f1f1;
-  width: 100%;
+.login form {
+  background-color: aquamarine;
+  width: 35rem;
+  height: 40rem;
   max-width: 480px;
   padding: 0.5rem;
+  border-radius: 2rem;
 }
 
-#login .field label {
+
+.input{
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.input-section{
+  margin-top: 13rem;
+}
+
+form .button{
+  margin: auto;
+  margin-top: 4rem;
+}
+form .input{
+  text-align: center;
+  margin: auto;
+}
+form .input:focus {
+  box-sizing: border-box;
+  border: 2.5px solid;
+  border-color: #C969FF;
+}
+
+.login .field label {
   padding-bottom: 0.5rem;
   text-align: left;
+  margin-left: 3rem;
   display: block;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
-#login .actionLogin {
+.login .actionLogin .btn-login {
+  width: 15rem;
+  height: 2rem;
+  background-color: #C969FF;
+  border-radius: 20px;
+  cursor: pointer;
+  
+  font-size: 18px;
+  color: white;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   flex-direction: row;
 }
-#login .actionRegister {
-  text-align: center;
-  margin-top: 0.3rem;
-  flex-direction: row;
+
+.actionLogin .btn-login:hover{
+  background-color: #b73dfd;
+}
+
+.login .actionRegister{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.login .actionRegister .btn-register{
+  margin-left: 1rem;
+  color: black;
+  cursor: pointer;
+  background-color: transparent;
+}
+.login .actionRegister .btn-register:hover{
+  color: #b73dfd;
 }
