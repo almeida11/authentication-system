@@ -72,8 +72,8 @@ body{
   max-width: 480px;
   padding: 0.5rem;
   border-radius: 2rem;
+  box-shadow: aquamarine 0px 54px 55px, aquamarine 0px -12px 30px, aquamarine 0px 4px 6px, aquamarine 0px 12px 13px, aquamarine 0px -3px 5px;
 }
-
 
 .input{
   width: 25rem;
@@ -90,6 +90,7 @@ body{
 .logo-bug{
   width: 80%;
 }
+
 
 form .button{
   margin: auto;

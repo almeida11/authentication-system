@@ -1,10 +1,13 @@
 import React from "react";
-
+import "./style.css";
 //Home Page
 
 const HomePage = () => {
     return (
-        <h1>Home Page 00</h1>
+        <div className="test">
+            <h1>Home Page 00</h1>
+        </div>
+        
     )
 }
 
