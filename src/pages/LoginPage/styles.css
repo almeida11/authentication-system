@@ -134,10 +134,10 @@ form .input:focus {
 }
 .login .actionRegister .btn-register{
   margin-left: 1rem;
-  color: black;
+  color: #b73dfd;
   cursor: pointer;
   background-color: transparent;
 }
 .login .actionRegister .btn-register:hover{
-  color: #b73dfd;
+  color: #C969FF;
 }
