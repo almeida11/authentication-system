@@ -84,7 +84,11 @@ body{
 }
 
 .input-section{
-  margin-top: 13rem;
+  margin-top: 5rem;
+}
+
+.logo-bug{
+  width: 80%;
 }
 
 form .button{

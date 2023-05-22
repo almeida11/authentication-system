@@ -13,6 +13,7 @@ const LoginPage = () => {
     return (
         <div id="login" className="login">
             <form className="formLogin" onSubmit={handleSubmit}>
+                <img className="logo-bug" src={logo} alt="logo" />
                 <div className="input-section">
                     <div className="field">
                         <label htmlFor="email">Email</label>
